@@ -9,6 +9,6 @@ var f = "No"
 for a in 0 ..< N - 2:
   for b in a + 1 ..< N - 1:
     for c in b + 1 ..< N:
-      if C[a][c] > C[a][b] + C[b][c]: f = "Yes"
+      if C[a][c] > C[a][b] + C[b][c]:
+        f = "Yes"
 echo f
-
