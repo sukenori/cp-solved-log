@@ -1,5 +1,5 @@
-#https://atcoder.jp/contests/abc446/tasks/abc446_d
-#どう見てもdp、前から見ていき、最後の数字とそれまでの長さをとっておけばよい
+# https://atcoder.jp/contests/abc446/tasks/abc446_d
+# どう見てもdp、前から見ていき、最後の数字とそれまでの長さをとっておけばよい
 include "/workspaces/AtCoder-Nim/.Library/.Template/Template.nim"
 let
   N = int.input
